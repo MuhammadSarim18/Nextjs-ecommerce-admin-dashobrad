@@ -1,7 +1,7 @@
 import multiparty from 'multiparty';
 import fs from 'fs';
 import { log } from 'console';
-import { mongooseConnect } from '@/models/mongoose';
+import { mongooseConnect } from '@/lib/mongoose';
 import { isAdminRequest } from './auth/[...nextauth]';
 const B2 = require('backblaze-b2');
 
